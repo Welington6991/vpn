@@ -1,0 +1,14 @@
+com/vpn/MainApplication.java
+ com.vpn.MainApplication
+ com.vpn.MainApplication$1
+com/vpn/ReactNativeFlipper.java
+ com.vpn.ReactNativeFlipper
+ com.vpn.ReactNativeFlipper$1
+ com.vpn.ReactNativeFlipper$2
+ com.vpn.ReactNativeFlipper$2$1
+com/vpn/MainActivity.java
+ com.vpn.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/vpn/BuildConfig.java
+ com.vpn.BuildConfig

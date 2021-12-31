@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vpn"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:5:5-81
+12-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:6:5-80
+13-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="com.android.vending.BILLING" />
+14-->[:react-native-simple-openvpn] /Users/ploomes/Documents/VPN/node_modules/react-native-simple-openvpn/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-67
+14-->[:react-native-simple-openvpn] /Users/ploomes/Documents/VPN/node_modules/react-native-simple-openvpn/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:react-native-simple-openvpn] /Users/ploomes/Documents/VPN/node_modules/react-native-simple-openvpn/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-79
+15-->[:react-native-simple-openvpn] /Users/ploomes/Documents/VPN/node_modules/react-native-simple-openvpn/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:react-native-simple-openvpn] /Users/ploomes/Documents/VPN/node_modules/react-native-simple-openvpn/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-68
+16-->[:react-native-simple-openvpn] /Users/ploomes/Documents/VPN/node_modules/react-native-simple-openvpn/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:22-65
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->[:react-native-simple-openvpn] /Users/ploomes/Documents/VPN/node_modules/react-native-simple-openvpn/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-77
+17-->[:react-native-simple-openvpn] /Users/ploomes/Documents/VPN/node_modules/react-native-simple-openvpn/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:22-74
+18
+19    <application
+19-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:8:5-27:19
+20        android:name="com.vpn.MainApplication"
+20-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:9:7-38
+21        android:allowBackup="false"
+21-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:13:7-34
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] /Users/ploomes/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:11:7-41
+24        android:label="@string/app_name"
+24-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:10:7-39
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:12:7-52
+26        android:theme="@style/AppTheme"
+26-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:15:7-38
+27        android:usesCleartextTraffic="true" >
+27-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:14:7-42
+28        <activity
+28-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:16:7-26:18
+29            android:name="com.vpn.MainActivity"
+29-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:17:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+30-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:19:9-86
+31            android:label="@string/app_name"
+31-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:18:9-41
+32            android:launchMode="singleTask"
+32-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:20:9-40
+33            android:windowSoftInputMode="adjustResize" >
+33-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:21:9-51
+34            <intent-filter>
+34-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:22:9-25:25
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:23:13-65
+35-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:23:21-62
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:24:13-73
+37-->/Users/ploomes/Documents/VPN/android/app/src/main/AndroidManifest.xml:24:23-70
+38            </intent-filter>
+39        </activity>
+40
+41        <service
+41-->[:react-native-simple-openvpn] /Users/ploomes/Documents/VPN/node_modules/react-native-simple-openvpn/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-23:19
+42            android:name="de.blinkt.openvpn.core.OpenVPNService"
+42-->[:react-native-simple-openvpn] /Users/ploomes/Documents/VPN/node_modules/react-native-simple-openvpn/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-65
+43            android:permission="android.permission.BIND_VPN_SERVICE" >
+43-->[:react-native-simple-openvpn] /Users/ploomes/Documents/VPN/node_modules/react-native-simple-openvpn/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-69
+44            <intent-filter>
+44-->[:react-native-simple-openvpn] /Users/ploomes/Documents/VPN/node_modules/react-native-simple-openvpn/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-22:29
+45                <action android:name="android.net.VpnService" />
+45-->[:react-native-simple-openvpn] /Users/ploomes/Documents/VPN/node_modules/react-native-simple-openvpn/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:17-65
+45-->[:react-native-simple-openvpn] /Users/ploomes/Documents/VPN/node_modules/react-native-simple-openvpn/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:25-62
+46            </intent-filter>
+47        </service>
+48        <service
+48-->[:react-native-send-intent] /Users/ploomes/Documents/VPN/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-14:39
+49            android:name="com.burnweb.rnsendintent.RNSendIntentModule"
+49-->[:react-native-send-intent] /Users/ploomes/Documents/VPN/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-71
+50            android:exported="true" />
+50-->[:react-native-send-intent] /Users/ploomes/Documents/VPN/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-36
+51
+52        <provider
+52-->[:react-native-send-intent] /Users/ploomes/Documents/VPN/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-24:20
+53            android:name="com.burnweb.rnsendintent.FileProvider"
+53-->[:react-native-send-intent] /Users/ploomes/Documents/VPN/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-65
+54            android:authorities="com.vpn.fileprovider"
+54-->[:react-native-send-intent] /Users/ploomes/Documents/VPN/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-64
+55            android:exported="false"
+55-->[:react-native-send-intent] /Users/ploomes/Documents/VPN/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-37
+56            android:grantUriPermissions="true" >
+56-->[:react-native-send-intent] /Users/ploomes/Documents/VPN/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-47
+57            <meta-data
+57-->[:react-native-send-intent] /Users/ploomes/Documents/VPN/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-23:54
+58                android:name="android.support.FILE_PROVIDER_PATHS"
+58-->[:react-native-send-intent] /Users/ploomes/Documents/VPN/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:17-67
+59                android:resource="@xml/file_paths" />
+59-->[:react-native-send-intent] /Users/ploomes/Documents/VPN/node_modules/react-native-send-intent/android/build/intermediates/library_manifest/release/AndroidManifest.xml:23:17-51
+60        </provider>
+61    </application>
+62
+63</manifest>

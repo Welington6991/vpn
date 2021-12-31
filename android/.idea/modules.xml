@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VPN.iml" filepath="$PROJECT_DIR$/.idea/modules/VPN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/VPN.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/VPN.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1983099044/VPN.lottie-react-native.iml" filepath="$PROJECT_DIR$/.idea/modules/-1983099044/VPN.lottie-react-native.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1732779631/VPN.react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-1732779631/VPN.react-native-async-storage_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1420700403/VPN.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1420700403/VPN.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/876336234/VPN.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/876336234/VPN.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/950508814/VPN.react-native-ping.iml" filepath="$PROJECT_DIR$/.idea/modules/950508814/VPN.react-native-ping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/996899411/VPN.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/996899411/VPN.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/349771307/VPN.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/349771307/VPN.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2101988059/VPN.react-native-send-intent.iml" filepath="$PROJECT_DIR$/.idea/modules/-2101988059/VPN.react-native-send-intent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-822076181/VPN.react-native-simple-openvpn.iml" filepath="$PROJECT_DIR$/.idea/modules/-822076181/VPN.react-native-simple-openvpn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/524725164/VPN.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/524725164/VPN.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>

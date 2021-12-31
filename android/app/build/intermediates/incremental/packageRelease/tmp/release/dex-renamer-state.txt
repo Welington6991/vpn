@@ -1,0 +1,4 @@
+#Tue Dec 21 16:58:34 BRT 2021
+base.0=/Users/ploomes/Documents/VPN/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
